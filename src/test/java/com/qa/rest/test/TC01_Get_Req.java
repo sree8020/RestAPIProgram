@@ -1,5 +1,3 @@
-####This My First RestAPI Program############
-
 package com.qa.rest.test;
 
 import org.testng.Assert;
@@ -47,5 +45,6 @@ public class TC01_Get_Req {
 		System.out.println("statusLine :: " + statusLine);
 	
 		Assert.assertEquals(statusLine,"HTTP/1.1 200 OK");
-  }
+		
+		System.out.println("end program");  }
 }
